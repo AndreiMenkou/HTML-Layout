@@ -1,0 +1,31 @@
+1. If a containing element only contains floated elements, some browsers will treat it as if it is zero pixels tall.
+
+    Solution:
+        {
+        overflow: auto;
+        width: 100%;
+        }
+
+2. Sometimes when using floated elements, you need to specify that some element may must be laid on the new line.
+
+    Solution:
+        {
+            clear: left; /* in case when float: left;*/
+        }
+
+3. Multi-column layout
+
+    Solution:
+        {
+            float: left;
+            width: 400px;
+            margin: 10px;
+        }
+
+4. Center the body for example
+
+    Solution:
+        {
+            margin-left: auto;
+            margin-right: auto;
+        }

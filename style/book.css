@@ -1,16 +1,20 @@
 body {
-     width: 750px;
+     /*width: 750px;*/
      font-family: Arial, Verdana, sans-serif;
      color: #665544;
 }
 
+/*body * {
+    border: 1px dotted blue;
+}
+*/
 h1 {
-     position: fixed;
+     /*position: fixed;
      top: 0px;
-     left: 0px;
+     left: 0px;*/
      margin: 0px;
      padding: 10px;
-     width: 100%;
+     /*width: 100%;*/
      background-color: #efefef;
      z-index: 10;
 }
@@ -22,9 +26,9 @@ h1 {
 */
 
 p.example {
-    position: absolute;
-    top: 100px;
-    left: 50px;
+    position: relative;
+    top: 5px;
+    left: 10px;
 }
 
 blockquote {
@@ -40,6 +44,32 @@ blockquote {
 
 }
 
-body * {
-    border: 2px solid green;
+div#float-test {
+    border: 1px solid #665544;
+    overflow: auto;
+    width: 100%;
+}
+
+div#float-test p {
+    width: 230px;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    background-color: #efefef;
+}
+
+.clear {
+    clear: both;
+}
+
+.column1of2 {
+    float: left;
+    width: 60%;
+    margin: 2.5%;
+}
+
+.column2of2 {
+    float: left;
+    width: 30%;
+    margin: 2.5%;
 }

@@ -1,3 +1,29 @@
+#header {
+    text-align: center;
+    width: 40%;
+    border: 1px dashed #00FFAC;
+    background-color: orange;
+    position: float;
+    display: inline-block;
+}
+
+#main {
+    width: 50%;
+    border: 2px double blue;
+    background-color: yellow;
+    position: float;
+    display: inline-block;
+}
+
+#footer {
+    width: 90%;
+    border: 3px groove black;
+    background-color: #ABCDEF;
+    position: float;
+    padding: 40px;
+    /*margin: 50px;*/
+}
+
 h1 {
     color: #000080;
     font-size: 2em;
@@ -7,4 +33,27 @@ h1 {
 
 p {
     padding-left: 20px;
+    width: 50px;
+}
+
+ul li {
+    display: inline-block;
+    background-color: maroon;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+ol.discipline {
+    width: 100px;
+}
+
+ol li {
+    background-color: violet;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+}
+
+* {
+    border: 2px solid green;
 }
